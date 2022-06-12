@@ -1,0 +1,9 @@
+{
+  "files.exclude": {
+    "**/.prettierrc": true,
+    "**/jsconfig.json": true,
+    "**/.eslintrc.json": true,
+    "**/.eslintignore": true,
+    "**/yarn-error.log": true,
+  }
+}

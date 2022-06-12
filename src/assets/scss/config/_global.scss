@@ -1,0 +1,83 @@
+@for $i from 8 through 40 {
+  .font-size-#{$i} {
+    font-size: #{$i}px !important;
+  }
+}
+
+@for $i from 8 through 40 {
+  .line-height-#{$i} {
+    line-height: #{$i}px !important;
+  }
+}
+
+.color-base-1 {
+  color: $base-1 !important;
+}
+
+.color-base-2 {
+  color: $base-2 !important;
+}
+
+.color-base-3 {
+  color: $base-3 !important;
+}
+
+.color-primary-1 {
+  color: $primary-1 !important;
+}
+
+.color-primary-2 {
+  color: $primary-2 !important;
+}
+
+.color-primary-3 {
+  color: $primary-3 !important;
+}
+
+.color-primary-4 {
+  color: $primary-4 !important;
+}
+
+.color-primary-5 {
+  color: $primary-5 !important;
+}
+
+.color-primary-6 {
+  color: $primary-6 !important;
+}
+
+.background-base-1 {
+  background-color: $base-1 !important;
+}
+
+.background-base-2 {
+  background-color: $base-2 !important;
+}
+
+.background-base-3 {
+  background-color: $base-3 !important;
+}
+
+.background-primary-1 {
+  background-color: $primary-1 !important;
+}
+
+.background-primary-2 {
+  background-color: $primary-2 !important;
+}
+
+.background-primary-3 {
+  background-color: $primary-3 !important;
+}
+
+.background-primary-4 {
+  background-color: $primary-4 !important;
+}
+
+.background-primary-5 {
+  background-color: $primary-5 !important;
+}
+
+.background-primary-6 {
+  background-color: $primary-6 !important;
+}
