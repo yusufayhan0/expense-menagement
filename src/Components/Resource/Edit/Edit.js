@@ -3,8 +3,6 @@ import { Button, Card, Form as BootstrapForm, Spinner } from 'react-bootstrap'
 import { useParams, useNavigate } from 'react-router-dom'
 import axios from '../../../Plugins/axios'
 
-
-
 export default function Edit({
   title,
   children,

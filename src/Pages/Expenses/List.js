@@ -21,7 +21,7 @@ export default function List() {
   return (
     <div>
       <ResourceList
-        title="Expenses"
+        title="Expense"
         route="expense"
         request="expenses"
         headers={headers}
