@@ -1,0 +1,11 @@
+#navbar-menu-container{
+  column-gap: 20px;
+
+  a {
+    color: $base-1;
+  }
+
+  .active-class{
+    text-decoration: underline;
+  }
+}

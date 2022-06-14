@@ -1,0 +1,84 @@
+{
+  "expenses": [
+    {
+      "id": 1,
+      "name": "Rent",
+      "description": "Rent for the month",
+      "amount": 800,
+      "date": "01-01-2020",
+      "interval": "Monthly",
+      "repeat": 3,
+      "type": "expense"
+    },
+    {
+      "id": 2,
+      "name": "Rent",
+      "description": "Rent for the month",
+      "amount": 200,
+      "date": "22-01-2021",
+      "interval": "Monthly",
+      "repeat": 1,
+      "type": "expense"
+    },
+    {
+      "id": 3,
+      "name": "Değişen değer",
+      "description": "Rent for the month",
+      "amount": 1000,
+      "date": "01-01-2020",
+      "interval": "Weekly",
+      "repeat": 4,
+      "type": "expense"
+    },
+    {
+      "id": 6,
+      "name": "Rent1",
+      "description": "Rent for the month",
+      "amount": 4000,
+      "date": "01-01-2020",
+      "interval": "Monthly",
+      "repeat": 0,
+      "type": "income"
+    },
+    {
+      "id": 7,
+      "name": "Rent2",
+      "description": "Rent for the month",
+      "amount": "$700",
+      "date": "22-01-2021",
+      "interval": "Monthly",
+      "repeat": 1500,
+      "type": "income"
+    },
+    {
+      "id": 8,
+      "name": "Rent3",
+      "description": "Rent for the month",
+      "amount": 100,
+      "date": "01-01-2020",
+      "interval": "Weekly",
+      "repeat": 5,
+      "type": "income"
+    },
+    {
+      "id": 9,
+      "name": "Rent4",
+      "description": "Rent for the month",
+      "amount": 1000,
+      "date": "01-01-2020",
+      "interval": "Daily",
+      "repeat": 4,
+      "type": "income"
+    },
+    {
+      "id": 10,
+      "name": "Rent5",
+      "description": "Rent for the month",
+      "amount": 9000,
+      "date": "01-01-2020",
+      "interval": "Monthly",
+      "repeat": 7,
+      "type": "income"
+    }
+  ]
+}

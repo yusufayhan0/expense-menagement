@@ -5,5 +5,6 @@
     "**/.eslintrc.json": true,
     "**/.eslintignore": true,
     "**/yarn-error.log": true,
+    "**/.husky": true,
   }
 }

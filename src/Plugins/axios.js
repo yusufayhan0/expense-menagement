@@ -6,6 +6,7 @@ axios.interceptors.request.use(
     if (token) {
       config.headers["Authorization"] = "Bearer " + token;
     }
+    config.baseURL = "http://localhost:3004/";
     // config.headers['Content-Type'] = 'application/json';
     return config;
   },
@@ -17,7 +18,11 @@ axios.interceptors.request.use(
 axios.interceptors.response.use(
   (res) => res,
   (err) => {
-    throw new Error(err.response.data.message);
+    const { status } = err.response;
+
+    if(status === 404){
+      window.location.href = "/notfound"
+    }
   }
 );
 

@@ -1,3 +1,17 @@
+//uygulamada çokça kullanılan classlar burada tanımlandı.
+
+:root {
+  --color-base-1: $base-1 !important;
+  --color-base-2: $base-2 !important;
+  --color-base-3: $base-3 !important;
+  --color-primary-1: $primary-1 !important;
+  --color-primary-2: $primary-2 !important;
+  --color-primary-3: $primary-3 !important;
+  --color-primary-4: $primary-4 !important;
+  --color-primary-5: $primary-5 !important;
+  --color-primary-6: $primary-6 !important;
+}
+
 @for $i from 8 through 40 {
   .font-size-#{$i} {
     font-size: #{$i}px !important;
@@ -46,6 +60,10 @@
   color: $primary-6 !important;
 }
 
+.color-danger {
+  color: $danger !important;
+}
+
 .background-base-1 {
   background-color: $base-1 !important;
 }
@@ -80,4 +98,8 @@
 
 .background-primary-6 {
   background-color: $primary-6 !important;
+}
+
+a {
+  text-decoration: none;
 }
