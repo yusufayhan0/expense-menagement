@@ -1,14 +1,14 @@
 //[--] axios configurations and intercaptors
 
 import axios from "axios";
-
 axios.interceptors.request.use(
   (config) => {
     const token = "";
     if (token) {
       config.headers["Authorization"] = "Bearer " + token;
     }
-    config.baseURL = "http://localhost:3004/";
+    config.baseURL = process.env.REACT_APP_BASE_URL;
+
     // config.headers['Content-Type'] = 'application/json';
     return config;
   },
