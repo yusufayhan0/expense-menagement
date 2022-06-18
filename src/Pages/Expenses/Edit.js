@@ -21,8 +21,8 @@ export default function Edit() {
         form={form}
         setData={setForm}
         formError={setFormError}
-        route="expense" //[--] geri dönüş için kullanılacak url
-        request="expenses" //[--]istek atılacak olan url
+        route="expense" //[--] the url to use for the callback
+        request="expenses" //[--] url to request
       >
         <Row>
           <Col md="4">

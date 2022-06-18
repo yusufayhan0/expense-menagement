@@ -22,7 +22,7 @@ export default function Edit() {
         setData={setForm}
         formError={setFormError}
         route="income" //[--] geri dönüş için kullanılacak url
-        request="expenses" //[--]istek atılacak olan url
+        request="expenses" //[--] istek atılacak olan url
       >
         <Row>
           <Col md="4">

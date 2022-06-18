@@ -44,7 +44,7 @@
       "id": 7,
       "name": "Rent2",
       "description": "Rent for the month",
-      "amount": "$700",
+      "amount": 700,
       "date": "22-01-2021",
       "interval": "Monthly",
       "repeat": 1500,
@@ -79,6 +79,23 @@
       "interval": "Monthly",
       "repeat": 7,
       "type": "income"
+    },
+    {
+      "name": "Kira",
+      "amount": 2000,
+      "repeat": "12",
+      "interval": "Monthly",
+      "type": "expense",
+      "id": 11
+    },
+    {
+      "name": "Okul Masrafları",
+      "date": "14-06-2022",
+      "amount": 250,
+      "repeat": "1",
+      "type": "expense",
+      "id": 12,
+      "interval": "Daily"
     }
   ]
 }

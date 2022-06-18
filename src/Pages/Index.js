@@ -1,4 +1,4 @@
-//[--]diğer sayfalarda fazladan import etme olayını engelliyoruz
+//[--] we prevent extra import on other pages
 import ExpensesCreate from "./Expenses/Create";
 import ExpensesList from "./Expenses/List";
 import ExpensesEdit from "./Expenses/Edit";

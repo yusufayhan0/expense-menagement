@@ -7,12 +7,11 @@ export default function TextField({
   name,
   label,
   type,
-  value
 }) {
   return (
     <Form.Group className='my-2'>
       <Form.Label>{ label }</Form.Label>
-      <Form.Control name={ name } value={value} onChange={ onChange } type={ type || 'text' } />
+      <Form.Control name={ name } onChange={ onChange } type={ type || 'text' } />
       { formError && <Form.Text className='color-danger'> { formError } </Form.Text> }
     </Form.Group>
   )

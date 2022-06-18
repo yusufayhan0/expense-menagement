@@ -5,7 +5,6 @@ import React from 'react';
 import Routers from "./router/Index";
 import { ToastContainer } from 'react-toastify';
 
-
 function App() {
   return (
     <div>

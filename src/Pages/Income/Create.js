@@ -9,7 +9,6 @@ import ResourceCreate from '../../Components/Resource/Create/Create'
 //[--] Formlar ayrı bir component olarak oluşturulup uygulamada kullanılabilirdi
 
 export default function Create() {
-
   const [form, setForm] = useState({})
   const [formError, setFormError] = useState({})
 
@@ -27,8 +26,8 @@ export default function Create() {
         }}
         formError={setFormError}
         route="income" //[--] geri dönüş için kullanılacak url
-        request="expenses" //[--]istek atılacak olan url
-        type="post" //[--]istek tipi post ya da put
+        request="expenses" //[--] istek atılacak olan url
+        type="post" //[--] istek tipi post ya da put
       >
         <Row>
           <Col md="4">

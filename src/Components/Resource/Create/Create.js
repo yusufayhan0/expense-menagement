@@ -1,7 +1,7 @@
 import React from 'react'
 import { Button, Card, Form as BootstrapForm } from 'react-bootstrap'
 import axios from '../../../Plugins/axios'
-
+import { useNavigate } from 'react-router-dom'
 
 export default function Create({
   title,
@@ -11,6 +11,9 @@ export default function Create({
   request,
   extraData
 }) {
+
+  const navigate = useNavigate();
+
 
   const handleSubmit = (e) => {
     e.preventDefault()
@@ -23,8 +26,8 @@ export default function Create({
     }
     
     axios.post(request, data)
-    .then(res => {
-      console.log(res)
+    .then(() => {
+      navigate(`/${route}`)
     })
     .catch(err => {
       console.log(err)

@@ -1,9 +1,8 @@
-//[--]uygulamanın tüm route işlemleri burada gerçekleşiyor
+//[--] all route operations of the app take place here
 import React from 'react'
 import { Route, Routes, Navigate } from 'react-router-dom'
 import Default from '../Layouts/Default'
 import Pages from '../Pages/Index'
-
 
 export default function Index() {
   return (

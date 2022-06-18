@@ -2,6 +2,7 @@ import React from 'react'
 import { Table as BootstrapTable, Button } from 'react-bootstrap'
 import TableLoading from '../Loading/TableLoading'
 
+//[--] dynamic table for header and data
 export default function Table({ headers, data, loading, handleDelete, route }) {
 
   return (

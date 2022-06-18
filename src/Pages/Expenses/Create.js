@@ -1,21 +1,23 @@
-import React, { useState } from 'react'
+import React, { useEffect, useState } from 'react'
 import { Col, Row } from 'react-bootstrap'
 import ReactDatePicker from '../../Components/Forms/DatePicker/DatePicker'
 import TextField from '../../Components/Forms/TextField/TextField'
 import SelectField from '../../Components/Forms/SelectField/SelectField'
 import ResourceCreate from '../../Components/Resource/Create/Create'
 
-//[--]burada formik ile validasyon yapılabilir yada form-backend-validation kullanılarak backendden dönen hatalar form elemanlarının altında gösterilebilir 
-//[--] Formlar ayrı bir component olarak oluşturulup uygulamada kullanılabilirdi
+//[--] here, validation can be done with formic or by using form-backend-validation, the errors returned from the backend can be displayed under the form elements.
 
 export default function Create() {
-
   const [form, setForm] = useState({})
   const [formError, setFormError] = useState({})
 
   const handleChange = (e) => {
     setForm({ ...form, [e.target.name]: e.target.value })
   }
+
+  useEffect(() => {
+    console.log("aaaaaaaaaaaaaaformformform",form)
+  }, [form])
 
   return (
     <div>
@@ -26,9 +28,9 @@ export default function Create() {
           type: 'expense',
         }}
         formError={setFormError}
-        route="expense" //[--] geri dönüş için kullanılacak url
-        request="expenses" //[--]istek atılacak olan url
-        type="post" //[--]istek tipi post ya da put
+        route="expense" //[--] the url to use for the callback
+        request="expenses" //[--] url to request
+        type="post" //[--] request type post or put
       >
         <Row>
           <Col md="4">

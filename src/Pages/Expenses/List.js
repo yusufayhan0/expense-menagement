@@ -3,6 +3,7 @@ import ResourceList from '../../Components/Resource/List/List'
 
 export default function List() {
 
+  //[--] table head list
   const [headers] = useState([
     {value: 'id', name: 'ID', width: '5%'},
     {value: 'name', name: 'Name', width: '20%', align: 'center'},
@@ -14,6 +15,7 @@ export default function List() {
     {value: '__action', name: 'Action', width: '12%', align: 'center'},
   ])
 
+  //[--] param list
   const [params] = useState({
     type: 'expense',
   })
